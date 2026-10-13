@@ -105,7 +105,7 @@ These are recommendations from historical analysis; their business impact would 
 
 ## Project Files
 
-My Power BI report and dashboard screenshots are available below. SQL scripts will be added after validation.
+My SQL scripts, Power BI report, and dashboard screenshots are available below.
 
 - **SQL — `sql/`:** Table setup, relationships, validation, and sales, customer, and delivery queries.
 - **Power BI report:** [Download the .pbix file](https://github.com/its-adesh/olist-ecommerce-analytics/releases/tag/v1.0). Includes Sales Performance, Customer Analytics, and Delivery & Operations. Open it in Power BI Desktop.
