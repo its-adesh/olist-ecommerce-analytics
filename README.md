@@ -45,7 +45,7 @@ I connected PostgreSQL to Power BI, reviewed data types and relationships, and c
 
 - **Total payment value from delivered orders:** R$15.42 million.
 - **Delivered orders:** 96,478.
-- **Average payment value per delivered order:** R$159.85.
+- **Average payment value per delivered order with a payment record:** R$159.85.
 - November 2017 recorded the highest monthly payment value.
 - Health & Beauty was the highest-selling product category among delivered orders.
 
@@ -94,6 +94,7 @@ These are recommendations from historical analysis; their business impact would 
 
 ## Methodology & Limitations
 
+- One delivered order has no payment record. The delivered-order count includes it, while payment totals and average payment value are calculated from the 96,477 delivered orders with payment records.
 - Payment value and product sales were calculated separately because payments and order items are recorded at different levels.
 - I used `customer_unique_id` to identify customers across orders.
 - Repeat purchasing was measured among customers with delivered orders within the observed dataset; it is not a complete measure of long-term retention.
